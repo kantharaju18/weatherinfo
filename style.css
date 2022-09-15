@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aqua;
+}
+
+.location-search{
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 50px;
+}
+.inform-box{
+    align-items: center;
+    width: 800px;
+    height: 300px;
+    padding: 10px;
+    margin-left: 300px;
+    margin-top: 150px;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+  
+}
+
+.we-image{
+    display: flex;
+    column-gap: 15px;
+}
+
+.buttons button{
+    padding: 5px;
+    color: rgba(0, 0, 0, 1);
+    border: 1px solid rgba(0, 0, 0, 0.75);
+    
+}
+.celcius:hover {
+    background-color: brown;
+
+}
+.fahrenhiet:hover {
+    background-color: brown;
+
+}
+
+.temperature{
+    font-size: 50px;
+}
+
+    .locate{
+        text-align: center;
+        margin-top: 10px;
+    }
+    .extra-details{
+        margin-left: 10px;
+    }
